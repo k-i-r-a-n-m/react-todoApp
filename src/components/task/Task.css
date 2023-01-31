@@ -1,0 +1,43 @@
+.task {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px 0;
+  box-sizing: border-box;
+  height: 50px;
+ align-items: center;
+  font-size:larger;
+ 
+}
+
+.button-tick,.button-delete {
+  width: 40px;
+  height:30px;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+
+.para-container{
+    width:400px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.para-container>p{
+  margin:0;
+  padding-top:2px
+}
+
+.task-completed > p {
+  text-decoration: line-through;
+  opacity: 0.25;
+}
+
+.task-completed{
+    background-color: rgb(160, 255, 160);
+    
+}
+
+.task-not-completed{
+    background-color:  #fffebf ;
+}
